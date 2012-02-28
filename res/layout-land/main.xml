@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:id="@+id/itemmessage"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="20dip"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_above="@+id/lineLeft"
+            android:text="Instructions"/>
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/infoButton"
+        android:text="Information"
+        android:layout_marginLeft="100dip"
+        android:layout_toRightOf="@+id/itemmessage"
+            />
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/mobSelect"
+            android:text="Mob Select"
+            android:layout_marginLeft="100dip"
+            android:layout_toRightOf="@+id/infoButton"
+            />
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infoButton"
+            >
+
+        <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/lineLeft"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content" android:layout_gravity="center"
+                          android:layout_marginBottom="5dip" android:textSize="14sp"
+                          android:text="1. From your homescreen, long-press on an open spot. Or press menu, then add."/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content" android:layout_gravity="center"
+                          android:layout_marginBottom="5dip" android:textSize="14sp"
+                          android:text="2. Select 'widget' from the popup."/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content" android:layout_gravity="center"
+                          android:layout_marginBottom="5dip" android:textSize="14sp"
+                          android:text="3. Locate 'Minecraft Widget' in that list."/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content" android:layout_gravity="center"
+                          android:layout_marginBottom="15dip" android:textSize="14sp"
+                          android:text="4. Configure your time, and hit save. Time can also be updated after widget is added, just tap it and hit the left-most button."/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content" android:layout_gravity="center"
+                          android:layout_marginBottom="15dip" android:textSize="14sp"
+                          android:text="5. Mobs can be selected by pressing the button at the bottom of this screen."/>
+
+            </LinearLayout>
+
+                
+
+        </RelativeLayout>
+
+    </ScrollView>
+    
+</RelativeLayout>

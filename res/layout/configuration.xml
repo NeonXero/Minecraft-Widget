@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+                android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/mainLayout">
+    <TextView android:id="@+id/TextView01" android:layout_height="wrap_content"
+              android:layout_width="wrap_content" android:layout_alignParentTop="true"
+              android:textSize="15dip"
+              android:text="Update Interval. Remember - you can select mobs by opening Minecraft Widget through your app drawer"/>
+    <!-- Scroll View + Radios -->
+    <ScrollView android:id="@+id/radio_scroll"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:layout_below="@id/TextView01" android:layout_above="@+id/bottom_container">
+        <!-- RadioButton Stuff -->
+        <RadioGroup android:id="@+id/RadioGroup01"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/RadioButtonnone"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="No Change"/>
+            <!--<RadioButton android:id="@+id/RadioButton11"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="1 Minute"/>
+            <RadioButton android:id="@+id/RadioButton12"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="5 Minutes"/>
+            <RadioButton android:id="@+id/RadioButton01"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="15 Minutes"/>-->
+            <RadioButton android:id="@+id/RadioButton02"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="30 Minutes"/>
+            <RadioButton android:id="@+id/RadioButton03"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="1 Hour"/>
+            <RadioButton android:id="@+id/RadioButton04"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="1 Hour, 30 Minutes"/>
+            <RadioButton android:id="@+id/RadioButton05"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="2 Hours"/>
+            <RadioButton android:id="@+id/RadioButton06"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="2 Hours, 30 Minutes"/>
+            <RadioButton android:id="@+id/RadioButton07"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="3 Hours"/>
+            <RadioButton android:id="@+id/RadioButton08"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="6 Hours"/>
+            <RadioButton android:id="@+id/RadioButton09"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="12 Hours"/>
+            <RadioButton android:id="@+id/RadioButton10"
+                         android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:text="Daily"/>
+        </RadioGroup>
+    </ScrollView>
+    <!-- Bottom Section -->
+    <RelativeLayout android:id="@id/bottom_container"
+                    android:layout_width="fill_parent" android:layout_height="100dip"
+                    android:layout_alignParentBottom="true">
+        <Button android:id="@+id/Button01" android:layout_height="50dip"
+                android:layout_width="fill_parent" android:layout_above="@+id/adView"
+                android:text="Save Time" android:layout_alignParentTop="true"/>
+        <com.google.ads.AdView android:id="@+id/adView"
+                               android:layout_width="wrap_content" android:layout_height="wrap_content"
+                               ads:adUnitId="a14d98d1d2b9071" ads:adSize="BANNER" ads:loadAdOnCreate="true"
+                               android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

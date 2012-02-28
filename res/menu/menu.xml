@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:id="@+id/time" android:title="Update Interval"-->
+    <!--android:icon="@drawable/clockmenu" android:enabled="true" />-->
+    <item android:id="@+id/mob" android:title="Select Mobs"
+          android:icon="@drawable/chickenmenu" android:enabled="true"/>
+</menu>

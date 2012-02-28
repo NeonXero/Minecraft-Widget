@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mob_list">
+        <item name="chicken">Chicken</item>
+        <item name="cow">Cow</item>
+        <item name="creepera">Creeper (A)</item>
+        <item name="creeperb">Creeper (B)</item>
+        <item name="ghast">Ghast</item>
+        <item name="human">Steve!</item>
+        <item name="pig">Pig</item>
+        <item name="rider">Skeleton Jockey</item>
+        <item name="sheep">Sheep</item>
+        <item name="skeleton">Skeleton</item>
+        <item name="slime">Slime</item>
+        <item name="spider">Spider</item>
+        <item name="zombie">Zombie</item>
+        <item name="zombiepig">Zombie Pig Man</item>
+        <item name="squid">Squid</item>
+        <item name="blacksheep">Sheep (Black)</item>
+        <item name="wo">Wolf (Tame)</item>
+        <item name="woh">Wolf (Hostile)</item>
+        <item name="notch">Notch</item>
+        <item name="herobrine">Herobrine (Formal)</item>
+        <item name="herobrineb">Herobrine</item>
+        <item name="baldsheep">Sheep (Bald)</item>
+        <item name="notchskin">Notch (Game)</item>
+        <item name="isra">Israphael</item>
+        <item name="honey">Honeydew</item>
+        <item name="simon">Simon</item>
+        <item name="oldpec">Old Peculier</item>
+        <item name="xephos">Xephos</item>
+        <!--September 16 update-->
+        <item name="ender">Enderman</item>
+        <item name="granny">Granny Bacon</item>
+        <item name="lysander">Skylord Lysander</item>
+        <item name="elvis">Father Braeburn</item>
+        <item name="cave">Cave Spider</item>
+        <item name="silver">Silverfish</item>
+        <!-- November 29 -->
+        <item name="blaze">Blaze</item>
+        <item name="villager">Villager</item>
+        <item name="moosh">Mooshroom</item>
+        <item name="snowg">Snow Golem</item>
+        <item name="magcube">Magma Cube</item>
+        <item name="dragon">Ender Dragon</item>
+        <!--Jan28-->
+        <item name="ocelot">Ocelot</item>
+        <item name="cat">Cats</item>
+        <!--Feb 28-->
+        <item name="golem">Iron Golem</item>
+    </string-array>
+
+</resources>

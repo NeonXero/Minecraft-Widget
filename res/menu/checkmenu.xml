@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/all" android:title="Select All Mobs"
+          android:icon="@android:drawable/ic_menu_add" android:enabled="true"/>
+    <item android:id="@+id/none" android:title="Select No Mobs"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel" android:enabled="true"/>
+</menu>
